@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Designs LLC | Premium Screen Printing & Embroidery | Las Vegas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#000000',
+                        secondary: '#ffffff',
+                        accent: '#ff0000',
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        display: ['Bebas Neue', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600;700&display=swap');
+        
+        .hero-pattern {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjYiPgo8cmVjdCB3aWR0aD0iNiIgaGVpZ2h0PSI2IiBmaWxsPSIjMDAwMDAwIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDZMNiAwWiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2U9IiNmZjAwMDAiPjwvcGF0aD4KPC9zdmc+');
+            opacity: 0.1;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px -12px rgba(255, 0, 0, 0.25);
+        }
+        
+        .text-stroke {
+            -webkit-text-stroke: 1px white;
+            color: transparent;
+        }
+        
+        .marquee {
+            animation: marquee 20s linear infinite;
+        }
+        
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+    </style>
+</head>
+<body class="font-sans bg-secondary text-primary">
+    <!-- Navigation -->
+    <nav class="bg-primary text-secondary sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="text-accent mr-2 text-2xl">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <a href="#" class="text-2xl font-bold tracking-wider">
+                        <span class="text-accent">FINE</span> DESIGNS
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="hover:text-accent transition">Services</a>
+                    <a href="#portfolio" class="hover:text-accent transition">Portfolio</a>
+                    <a href="#about" class="hover:text-accent transition">About</a>
+                    <a href="#contact" class="hover:text-accent transition">Contact</a>
+                    <a href="#quote" class="bg-accent px-4 py-2 rounded font-bold hover:bg-opacity-90 transition">Get Quote</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button class="text-2xl focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="relative bg-primary text-secondary overflow-hidden">
+        <div class="hero-pattern absolute inset-0"></div>
+        <div class="container mx-auto px-6 py-24 md:py-32 relative z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-display font-bold mb-6">
+                        <span class="text-accent">PRINT.</span> <span class="text-stroke">EMBROIDER.</span> <span class="text-accent">CREATE.</span>
+                    </h1>
+                    <p class="text-xl mb-8 opacity-90">
+                        Las Vegas' premier custom apparel decoration company. From small orders to large productions, we bring your designs to life with precision and style.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#quote" class="bg-accent px-6 py-3 rounded font-bold hover:bg-opacity-90 transition">
+                            Get Started
+                        </a>
+                        <a href="#portfolio" class="border-2 border-secondary px-6 py-3 rounded font-bold hover:bg-secondary hover:text-primary transition">
+                            View Work
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <div class="relative">
+                        <div class="absolute -top-10 -left-10 w-64 h-64 bg-accent opacity-20 rounded-full"></div>
+                        <div class="absolute -bottom-10 -right-10 w-64 h-64 bg-accent opacity-20 rounded-full"></div>
+                        <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                             alt="Custom printed t-shirts" 
+                             class="relative z-10 rounded-lg shadow-2xl border-4 border-secondary">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-accent py-3 overflow-hidden">
+            <div class="flex marquee">
+                <span class="text-xl font-display tracking-widest whitespace-nowrap px-6">
+                    SCREEN PRINTING • EMBROIDERY • HEAT TRANSFERS • DIRECT TO GARMENT • CUSTOM APPAREL • PROMOTIONAL PRODUCTS • UNIFORMS • HATS • TOTE BAGS • FLAGS • AND MORE • SCREEN PRINTING • EMBROIDERY • HEAT TRANSFERS • DIRECT TO GARMENT • CUSTOM APPAREL • PROMOTIONAL PRODUCTS • UNIFORMS • HATS • TOTE BAGS • FLAGS • AND MORE
+                </span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-secondary">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-display font-bold mb-4">OUR <span class="text-accent">SERVICES</span></h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-primary text-secondary p-8 rounded-lg transition duration-300">
+                    <div class="text-accent text-4xl mb-4">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Screen Printing</h3>
+                    <p class="opacity-90 mb-6">
+                        High-quality screen printing for all your apparel needs. Perfect for bulk orders with vibrant, long-lasting colors.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> T-shirts & Polos
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Hoodies & Sweatshirts
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Tote Bags
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Flags & Banners
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-primary text-secondary p-8 rounded-lg transition duration-300">
+                    <div class="text-accent text-4xl mb-4">
+                        <i class="fas fa-thread"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Embroidery</h3>
+                    <p class="opacity-90 mb-6">
+                        Professional embroidery services for a premium, sophisticated look on various garments and accessories.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Company Logos
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Hats & Caps
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Jackets & Vests
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Uniforms
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-primary text-secondary p-8 rounded-lg transition duration-300">
+                    <div class="text-accent text-4xl mb-4">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Heat Transfers</h3>
+                    <p class="opacity-90 mb-6">
+                        Versatile heat transfer solutions for both small and large orders with exceptional detail and durability.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Small Batch Orders
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Full Color Designs
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Specialty Items
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-accent mr-2"></i> Quick Turnaround
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-primary text-secondary">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-display font-bold mb-4">OUR <span class="text-accent">WORK</span></h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Portfolio Item 1 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                         alt="Screen printed t-shirts" 
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-xl font-bold mb-2">Corporate Uniforms</h3>
+                            <p class="text-sm">Screen printing on polo shirts for a Las Vegas casino staff</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e332812?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                         alt="Embroidered hats" 
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-xl font-bold mb-2">Branded Caps</h3>
+                            <p class="text-sm">Custom embroidered hats for a local sports team</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="https://images.unsplash.com/photo-1583744949094-527f0f44e0b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                         alt="Heat transfer designs" 
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-xl font-bold mb-2">Event Merchandise</h3>
+                            <p class="text-sm">Heat transfer designs for a music festival</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="https://images.unsplash.com/photo-1584917865448-de9e0d8e6a7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                         alt="Tote bags" 
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-xl font-bold mb-2">Promotional Bags</h3>
+                            <p class="text-sm">Custom printed tote bags for a retail chain</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Work uniforms" 
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-xl font-bold mb-2">Work Uniforms</h3>
+                            <p class="text-sm">Custom workwear for construction company</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="https://images.unsplash.com/photo-1576566588021-0f0a8849ff0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Custom flags" 
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-xl font-bold mb-2">Custom Flags</h3>
+                            <p class="text-sm">Large format printing for event banners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block border-2 border-accent text-accent px-6 py-3 rounded font-bold hover:bg-accent hover:text-primary transition">
+                    View Full Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-secondary">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" 
+                         alt="Fine Designs team" 
+                         class="rounded-lg shadow-xl border-4 border-primary">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-4xl font-display font-bold mb-6">ABOUT <span class="text-accent">FINE DESIGNS</span></h2>
+                    <div class="w-20 h-1 bg-accent mb-6"></div>
+                    <p class="text-lg mb-6">
+                        Founded in Las Vegas, Fine Designs LLC has been serving the community with premium custom apparel decoration services since 2010. Our team of skilled artisans combines traditional craftsmanship with cutting-edge technology to deliver exceptional results.
+                    </p>
+                    <p class="text-lg mb-6">
+                        We pride ourselves on attention to detail, quality materials, and outstanding customer service. Whether you're a small business, large corporation, or individual with a creative vision, we're here to bring your ideas to life.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center">
+                            <div class="bg-accent text-primary w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="font-bold">100% Quality</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-accent text-primary w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="font-bold">Fast Turnaround</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-accent text-primary w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="font-bold">Eco-Friendly</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-accent text-primary w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="font-bold">Local Business</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="inline-block bg-primary text-secondary px-6 py-3 rounded font-bold hover:bg-opacity-90 transition">
+                        Meet Our Team
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="py-20 bg-primary text-secondary">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-display font-bold mb-4">CLIENT <span class="text-accent">TESTIMONIALS</span></h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-secondary text-primary p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-accent text-2xl mr-2">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="font-bold">Casino Royale</div>
+                    </div>
+                    <p class="mb-6">
+                        "Fine Designs has been our go-to for all employee uniforms. Their attention to detail and consistent quality keeps our staff looking professional."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-300 mr-4 overflow-hidden">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah Johnson">
+                        </div>
+                        <div>
+                            <div class="font-bold">Sarah Johnson</div>
+                            <div class="text-sm text-gray-600">HR Director</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-secondary text-primary p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-accent text-2xl mr-2">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="font-bold">Vegas Titans</div>
+                    </div>
+                    <p class="mb-6">
+                        "The custom jerseys they made for our team were incredible! The colors popped and the fabric was comfortable even during intense games."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-300 mr-4 overflow-hidden">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mike Rodriguez">
+                        </div>
+                        <div>
+                            <div class="font-bold">Mike Rodriguez</div>
+                            <div class="text-sm text-gray-600">Team Manager</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-secondary text-primary p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-accent text-2xl mr-2">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="font-bold">Neon Music Fest</div>
+                    </div>
+                    <p class="mb-6">
+                        "For our annual festival, Fine Designs delivered 5,000 shirts on time with perfect quality. Their team handled our last-minute changes with professionalism."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-300 mr-4 overflow-hidden">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Lisa Chen">
+                        </div>
+                        <div>
+                            <div class="font-bold">Lisa Chen</div>
+                            <div class="text-sm text-gray-600">Event Coordinator</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Quote Section -->
+    <section id="quote" class="py-20 bg-secondary">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-primary text-secondary p-8 md:p-12 rounded-lg shadow-2xl">
+                <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">READY TO <span class="text-accent">START</span> YOUR PROJECT?</h2>
+                <p class="text-xl mb-8">
+                    Get a free quote today! Fill out the form below and we'll get back to you within 24 hours with pricing and timeline estimates.
+                </p>
+                
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block mb-2 font-bold">Your Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-3 bg-secondary text-primary rounded border-0 focus:ring-2 focus:ring-accent">
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2 font-bold">Email Address</label>
+                        <input type="email" id="email" class="w-full px-4 py-3 bg-secondary text-primary rounded border-0 focus:ring-2 focus:ring-accent">
+                    </div>
+                    <div>
+                        <label for="phone" class="block mb-2 font-bold">Phone Number</label>
+                        <input type="tel" id="phone" class="w-full px-4 py-3 bg-secondary text-primary rounded border-0 focus:ring-2 focus:ring-accent">
+                    </div>
+                    <div>
+                        <label for="service" class="block mb-2 font-bold">Service Needed</label>
+                        <select id="service" class="w-full px-4 py-3 bg-secondary text-primary rounded border-0 focus:ring-2 focus:ring-accent">
+                            <option value="">Select a service</option>
+                            <option value="screen-printing">Screen Printing</option>
+                            <option value="embroidery">Embroidery</option>
+                            <option value="heat-transfer">Heat Transfer</option>
+                            <option value="dtg">Direct to Garment</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="details" class="block mb-2 font-bold">Project Details</label>
+                        <textarea id="details" rows="4" class="w-full px-4 py-3 bg-secondary text-primary rounded border-0 focus:ring-2 focus:ring-accent"></textarea>
+                    </div>
+                    <div class="md:col-span-2">
+                        <button type="submit" class="bg-accent text-primary px-8 py-4 rounded font-bold hover:bg-opacity-90 transition">
+                            Request Quote
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-primary text-secondary">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-display font-bold mb-4">CONTACT <span class="text-accent">US</span></h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">GET IN TOUCH</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="text-accent text-xl mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Our Location</h4>
+                                <p>1234 Design Street<br>Las Vegas, NV 89101</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-accent text-xl mr-4 mt-1">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Call Us</h4>
+                                <p>Office: (702) 555-1234<br>Mobile: (702) 555-5678</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-accent text-xl mr-4 mt-1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Email Us</h4>
+                                <p>info@finedesignsvegas.com<br>sales@finedesignsvegas.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-accent text-xl mr-4 mt-1">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Hours</h4>
+                                <p>Monday-Friday: 9am - 6pm<br>Saturday: 10am - 4pm<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-bold mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 rounded-full bg-secondary text-primary flex items-center justify-center hover:bg-accent transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-secondary text-primary flex items-center justify-center hover:bg-accent transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-secondary text-primary flex items-center justify-center hover:bg-accent transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-secondary text-primary flex items-center justify-center hover:bg-accent transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">VISIT OUR SHOP</h3>
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.454258713678!2d-115.1398449847276!3d36.17164698008795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c437f5a9a0a9%3A0x1b9a6a6787f5a9a0!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+                                width="100%" 
+                                height="400" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy"
+                                class="rounded-lg shadow-lg"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="text-accent mr-2 text-2xl">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div class="text-2xl font-bold tracking-wider">
+                            <span class="text-accent">FINE</span> DESIGNS
+                        </div>
+                    </div>
+                    <p class="opacity-80">
+                        Las Vegas' premier custom apparel decoration company specializing in screen printing, embroidery, and heat transfers.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="opacity-80 hover:text-accent transition">Home</a></li>
+                        <li><a href="#services" class="opacity-80 hover:text-accent transition">Services</a></li>
+                        <li><a href="#portfolio" class="opacity-80 hover:text-accent transition">Portfolio</a></li>
+                        <li><a href="#about" class="opacity-80 hover:text-accent transition">About Us</a></li>
+                        <li><a href="#contact" class="opacity-80 hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="opacity-80 hover:text-accent transition">Screen Printing</a></li>
+                        <li><a href="#" class="opacity-80 hover:text-accent transition">Embroidery</a></li>
+                        <li><a href="#" class="opacity-80 hover:text-accent transition">Heat Transfers</a></li>
+                        <li><a href="#" class="opacity-80 hover:text-accent transition">Direct to Garment</a></li>
+                        <li><a href="#" class="opacity-80 hover:text-accent transition">Custom Apparel</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Newsletter</h4>
+                    <p class="opacity-80 mb-4">
+                        Subscribe to our newsletter for special offers and updates.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l text-black focus:outline-none">
+                        <button type="submit" class="bg-accent text-black px-4 py-2 rounded-r font-bold">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="opacity-80 mb-4 md:mb-0">
+                    &copy; 2023 Fine Designs LLC. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="opacity-80 hover:text-accent transition">Privacy Policy</a>
+                    <a href="#" class="opacity-80 hover:text-accent transition">Terms of Service</a>
+                    <a href="#" class="opacity-80 hover:text-accent transition">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple JavaScript for mobile menu toggle would go here
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle functionality would be implemented here
+            console.log('Fine Designs LLC website loaded');
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
